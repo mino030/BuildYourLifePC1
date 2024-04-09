@@ -4,13 +4,26 @@
 	height: 568px;
 	background-color: black;
 }
-
+.back {
+	position: absolute;
+	width: 40.17px;
+	height: 33px;
+	left: 15px;
+	top: 515px;
+}
+.home {
+	position: absolute;
+	width: 19px;
+	height: 22.02px;
+	left: 283px;
+	top: 14px;
+}
 .cover-img {
 	position: absolute;
 	width: 221px;
 	height: 217.55px;
 	left: 45px;
-	top: 80px;
+	top: 40px;
 }
 
 .title {
@@ -18,7 +31,7 @@
 	width: 200px;
 	height: 55px;
 	left: 86px;
-	top: 270px;
+	top: 230px;
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
@@ -32,7 +45,7 @@
 	width: 203px;
 	height: 42px;
 	left: 59px;
-	top: 340px;
+	top: 300px;
 
 	font-family: 'Jockey One';
 	font-style: normal;
@@ -56,7 +69,7 @@
 	width: 200px;
 	height: 5px;
 	left: 90px;
-	top: 420px;
+	top: 380px;
 
 /* /Status Color / Warning */
 	background: #FFC107;
@@ -102,7 +115,7 @@
 	width: 140px;
 	height: 28px;
 	left: 90px;
-	top: 470px;
+	top: 430px;
 
 	/* Text */
 
@@ -170,21 +183,73 @@ border-radius: 6.75377px;
 
 .options {
 	display: row;
+	position: relative;
 	list-style-type: none;
-	color:white;
-	font-family: 'Jockey One';
-	width: 100px;
+	color:#54595E;
+	font-family: 'Inter';
+	font-size: 14px;
+	width: 1500px;
 	height: 100px;
 	align-items: center;
+	top: 265px;
+	line-height: 185%;
+}
+
+.result-title {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	left:70px;
+	top:20px;
+	letter-spacing: 0.5px;
+
+	font-family: 'Jockey One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	color:#FBEED2;
+
+	margin-bottom: 20px;
+	
+}
+
+.notilogo {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 50px;
+	top: 68px;
+}
+
+.adjust-notification {
+	position: relative;
+	width: 211.09px;
+	height: 18.83px;
+	left: 69.91px;
+	top: 70px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 9.91031px;
+	line-height: 12px;
+
+	color: #FBEED2;
 }
 
 .combination {
+	position: relative;
 	color: #fff; 
 	padding: 30px; /* Space inside the card */
+	padding-top:1px;
+	padding-bottom: 10px;
 	width: 300px; /* Width of the card */
 	display: flex; /* Use flexbox for layout */
 	align-items: center; /* Align items vertically */
-	gap: 15px;
+	gap: 5px;
+	top: 90px;
+
+	
 }
 
 .product-info {
