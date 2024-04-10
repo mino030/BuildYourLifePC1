@@ -6,6 +6,7 @@
 }
 .back {
 	position: absolute;
+	background-repeat: no-repeat;
 	width: 40.17px;
 	height: 33px;
 	left: 15px;
@@ -13,6 +14,7 @@
 }
 .home {
 	position: absolute;
+	background-repeat: no-repeat;
 	width: 19px;
 	height: 22.02px;
 	left: 283px;
@@ -187,12 +189,12 @@ border-radius: 6.75377px;
 	list-style-type: none;
 	color:#54595E;
 	font-family: 'Inter';
-	font-size: 14px;
+	font-size: 12px;
 	width: 1500px;
 	height: 100px;
 	align-items: center;
-	top: 265px;
-	line-height: 185%;
+	top: 270px;
+	line-height: 200%;
 }
 
 .result-title {
@@ -213,7 +215,25 @@ border-radius: 6.75377px;
 	
 }
 
-.notilogo {
+.compo-title {
+	position: relative;
+	width: 144px;
+	height: 45px;
+	left: 25px;
+	top: 25px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 31.6432px;
+	line-height: 38px;
+
+	color: #FBEED2;
+
+
+}
+
+.notilogo1 {
 	position: absolute;
 	width: 15px;
 	height: 15px;
@@ -221,7 +241,23 @@ border-radius: 6.75377px;
 	top: 68px;
 }
 
-.adjust-notification {
+.notilogo2 {
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	left: 25px;
+	top: 68px;
+}
+
+.notilogo3 {
+	position:absolute;
+	width: 15px;
+	height: 15px;
+	left: 25px;
+	top: 415px;
+}
+
+.adjust-notification1 {
 	position: relative;
 	width: 211.09px;
 	height: 18.83px;
@@ -237,13 +273,31 @@ border-radius: 6.75377px;
 	color: #FBEED2;
 }
 
+.adjust-notification2 {
+	position: relative;
+	width: 211px;
+	height: 18.83px;
+	left: 40px;
+	top: 2px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+
+	color: #FBEED2;
+}
+
 .combination {
 	position: relative;
 	color: #fff; 
+	font-family: 'Inter';
 	padding: 30px; /* Space inside the card */
 	padding-top:1px;
 	padding-bottom: 10px;
-	width: 300px; /* Width of the card */
+	width: 250px; /* Width of the card */
+	max-width: 250px;
 	display: flex; /* Use flexbox for layout */
 	align-items: center; /* Align items vertically */
 	gap: 5px;
@@ -269,4 +323,85 @@ border-radius: 6.75377px;
 .product-prize {
 	margin-top: -10px;
 
+}
+
+.detailed {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 20px;
+	top: 110px;
+
+}
+
+.detailed-title {
+	font-family: 'Inter';
+	font-size: 13px;
+	padding-left: 20px;
+	padding-top: 3px;
+
+	color: #FBEED2;
+}
+
+.detailed-list {
+	list-style-type: none;
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	top: 70px;
+	left: -10px;
+	font-family: 'Barlow Condensed';
+}
+
+.listicon {
+		background-image: url('src/images/bookmark-star.png');
+		background-repeat: no-repeat;
+		background-position: 0 0; 
+		padding-left: 0px;
+		line-height: 40px; 
+		margin-bottom: 0px;
+		color: white;
+		font-size: 16px; 
+}
+
+.preview-title {
+	position: absolute;
+	width: 294px;
+	height: 43px;
+	left: 18px;
+	top: 58px;
+
+	font-family: 'Jockey One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 37px;
+
+	color: #FBEED2;
+
+
+}
+
+.preview-img {
+	position: absolute;
+	width: 300px;
+	height: 170px;
+	left: 8px;
+	top: 185px;
+}
+
+.preview-noti {
+	position: absolute;
+	width: 250px;
+	height: 15px;
+	left: 50px;
+	top: 400px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 9px;
+	line-height: 20px;
+
+	color: #FBEED2;
 }
