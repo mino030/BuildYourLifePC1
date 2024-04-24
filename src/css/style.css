@@ -192,6 +192,11 @@ border-radius: 6.75377px;
 	padding-left: 10%;
 }
 
+.optioncolor {
+	color: #959da5; 
+	font-size: 10px;
+}
+
 .result-title {
 	position: absolute;
 	width: 50%;
