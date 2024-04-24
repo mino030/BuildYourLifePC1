@@ -2,7 +2,7 @@
 
 ## Description
 
-Please add a brief description of your final project here.
+This website is aiming to help people who are not familiar with customized computer to build their own computer.
 
 ## Project Documentation
 

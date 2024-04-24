@@ -293,8 +293,8 @@ border-radius: 6.75377px;
 	padding: 30px; /* Space inside the card */
 	padding-top:1px;
 	padding-bottom: 10px;
-	width: 20%; /* Width of the card */
-	height: 50%;
+	width: 40%; /* Width of the card */
+	height: 25%;
 	max-width: 250px;
 	display: flex; /* Use flexbox for layout */
 	align-items: center; /* Align items vertically */
@@ -311,7 +311,7 @@ border-radius: 6.75377px;
 .product-info {
 	display: flex;
 	flex-direction: column;
-	font-size: 200%;
+	font-size: 10px;
 	color: #6C767F;
 
 }
