@@ -16,15 +16,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&family=Jockey+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
     /*page3*/
-	<main class="content-container" style="height: 1276px;">
+	<main>
 	<h1 class="result-title">Here's ur computer!</h1>
-	<img class="notilogo1" src="images/notilogo.png" alt="noti-icon">
 	<p class="adjust-notification1">You can adjust them whatever you want</p>
 	
+	<img class="notilogo1" src="images/notilogo.png" alt="noti-icon">
+	
+	<section class="list">
 	<section class="combination">
-	<img src="images/Vector.jpg" alt="CPU Image">
+	<img src="images/Vector.png" alt="CPU Image" class="prodimg">
 <div class="product-info">
 	<h2 class="product-title">CPU</h2>
 	<p>Intel Core i5-10400</p>
@@ -33,7 +35,7 @@
 	</section>
 
 	<section class="combination">
-		<img src="images/GPU.png" alt="GPU Image">
+		<img src="images/GPU.png" alt="GPU Image" class="prodimg">
 	<div class="product-info">
 		<h2 class="product-title">GPU</h2>
 		<p>GeForce GTX 1650 D6 OC 4G</p>
@@ -42,7 +44,7 @@
 		</section>
 
 	<section class="combination">
-			<img src="images/mb.png" alt="Motherboard Image">
+			<img src="images/mb.png" alt="Motherboard Image" class="prodimg">
 		<div class="product-info">
 			<h2 class="product-title">Motherboard</h2>
 			<p>ASUS Prime B660M-A AC D4 mATX</p>
@@ -51,51 +53,68 @@
 			</section>
 			
 	<section class="combination">
-			<img src="images/cooler.png" alt="Cooler Image">
+			<img src="images/cooler.png" alt="Cooler Image" class="prodimg">
 		<div class="product-info">
 			<h2 class="product-title">Cooler</h2>
 			<p>None</p>
 		</div>
 			</section>
 	<section class="combination">
-				<img src="images/RAM.png" alt="RAM Image">
-			<div class="product-info">
-				<h2 class="product-title">RAM</h2>
-				<p>Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200MHz</p>
-				<p class="product-prize">$40</p>
-			</div>
-				</section>		
+			<img src="images/RAM.png" alt="RAM Image" class="prodimg">
+		<div class="product-info">
+			<h2 class="product-title">RAM</h2>
+			<p>Corsair Vengeance LPX 16GB (2x8GB) DDR4-3200MHz</p>
+			<p class="product-prize">$40</p>
+		</div>
+			</section>		
 	
     <section class="combination">
-				<img src="images/SSD.png" alt="SSD Image">
-			<div class="product-info">
+			<img src="images/SSD.png" alt="SSD Image" class="prodimg">
+		<div class="product-info">
 			<h2 class="product-title">SSD Storage</h2>
-				<p>Kingston 512GB M.2 2230 PCIe Gen 4.0x4 NVMe SSD </p>
-				<p class="product-prize">$64</p>
-				</div>
-				</section>
+			<p>Kingston 512GB M.2 2230 PCIe Gen 4.0x4 NVMe SSD </p>
+			<p class="product-prize">$64</p>
+		</div>
+			</section>
 
 	<section class="combination">
-					<img src="images/Case.png" alt="Case Image">
-				<div class="product-info">
-				<h2 class="product-title">Case</h2>
-					<p>Cooler Master MasterBox Q300L Micro-ATX Tower</p>
-					<p class="product-prize">$39.99</p>
-					</div>
-					</section>
+			<img src="images/Case.png" alt="Case Image" class="prodimg">
+		<div class="product-info">
+			<h2 class="product-title">Case</h2>
+			<p>Cooler Master MasterBox Q300L Micro-ATX Tower</p>
+			<p class="product-prize">$39.99</p>
+		</div>
+			</section>
 
 	<section class="combination">
-						<img src="images/PS.png" alt="Power Supply Image">
-					<div class="product-info">
-					<h2 class="product-title">Power Supply</h2>
-						<p>Corsair CX550 550 Watt 80 Plus ATX Power Supply</p>
-						<p class="product-prize">$59</p>
-						</div>
-						</section>
-			</main>
+			<img src="images/PS.png" alt="Power Supply Image" class="prodimg">
+		<div class="product-info">
+			<h2 class="product-title">Power Supply</h2>
+			<p>Corsair CX550 550 Watt 80 Plus ATX Power Supply</p>
+			<p class="product-prize">$59</p>
+		</div>
+			</section>
+	</section>
+
+	<section>
+	<p class="specific">Want something specific?</p>
+	<button id="goSpecific" class="goforit">Go for it!</button>
+	</section>
+
+	<section>
+		<img src="images/wallet.png" class="wallet">
+		<p class="totalamount">Total: Around $698</p>
+	</section>
+
+	<section>
+		<img src="images/arrow-right.png" class="arrow-right">
+		<p class="previewIntro"><a href="page5.html">Wanna see what will ur computer look like?</a></p>
+	</section>
+	</main>
 
 
-	<img class="back" src="images/chevron-bar-left.png" alt="back-icon">
-	<img class="home" src="images/home.png">
+	<img class="back" src="images/chevron-bar-left.png" alt="back-icon" onclick="goBack()">
+	<img class="home" src="images/home.png" onclick="returnHome()">
 </body>
+<script src="js/scripts.js"></script>
 </html>

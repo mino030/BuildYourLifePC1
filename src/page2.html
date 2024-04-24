@@ -17,22 +17,23 @@
 </head>
 
 /*page2*/
-<body>
-	<main class="content-container">
-		<h1 class="question" style="left: 20px;">What game do you play the most?</h1>
+<body class="body">
+	<main>
+		<h1 class="question">What game do you play the most?</h1>
 		<p class="dropdownContainer">
 			<ul class="options">
 				<li style="color: #959da5; font-size: 10px;">GAME</li>
-				<li>CSGO2/Apex/Valorant/OW</li>
+				<li><a href="page3.html">CSGO2/Apex/Valorant/OW</a></li>
 				<li>PUBG/NARAKA:BLADEPOINT</li>
 				<li>LOL/Dota2</li>
 				<li>Other online multiplayer game</li>
 				<li>Other single-player game</li>
 			</ul>
-		<img class="back" src="images/chevron-bar-left.png" alt="back-icon">
-		<img class="home" src="images/home.png">
+		<img class="back" src="images/chevron-bar-left.png" alt="back-icon" onclick="goBack()">
+		<img class="home" src="images/home.png" onclick="returnHome()">
 		</p>
 		
 	</main>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
