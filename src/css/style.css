@@ -293,7 +293,8 @@ border-radius: 6.75377px;
 	padding: 30px; /* Space inside the card */
 	padding-top:1px;
 	padding-bottom: 10px;
-	width: 250px; /* Width of the card */
+	width: 20%; /* Width of the card */
+	height: 50%;
 	max-width: 250px;
 	display: flex; /* Use flexbox for layout */
 	align-items: center; /* Align items vertically */
@@ -303,14 +304,14 @@ border-radius: 6.75377px;
 
 .prodimg {
 	display: grid;
-	width: 25%;
+	width: 30%;
 	height: 50%;
 }
 
 .product-info {
 	display: flex;
 	flex-direction: column;
-	font-size: 10px;
+	font-size: 200%;
 	color: #6C767F;
 
 }
@@ -323,12 +324,11 @@ border-radius: 6.75377px;
 
 .product-prize {
 	margin-top: -10px;
-
 }
 
 .specific {
 	position: absolute;
-	width: 25%;
+	width: 50%;
 	height: 10%;
 	left: 63%;
 	top: 37%;
