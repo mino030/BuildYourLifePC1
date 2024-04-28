@@ -1,8 +1,20 @@
-html,body {
+html,
+body {
 	height: 100%;
 	background-color: black;
 	margin: 0;
 }
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #FFC107;
+}
+
 
 .container {
 	display: flex;
@@ -18,9 +30,10 @@ html,body {
 	position: absolute;
 	width: 50%;
 	height: 60%;
-	top:15%;
+	top: 15%;
 	left: 10%;
 }
+
 .back {
 	position: fixed;
 	background-repeat: no-repeat;
@@ -29,33 +42,35 @@ html,body {
 	left: 15px;
 	bottom: 20px;
 }
+
 .home {
 	position: fixed;
 	background-repeat: no-repeat;
-	width: 3%;
-	height: 6%;
-	left: 80%;
-	top: 50px;
+	width: 2%;
+	height: 4%;
+	right: 2%;
+	top: 5%;
 }
+
 .cover-img {
 	position: absolute;
-	width: 25%;
-	height: 45%;
-	top: 8%;
-	left: 37%
+	width: 30%;
+	height: 55%;
+	top: 22%;
+	left: 15%
 }
 
 .title {
 	position: absolute;
-	width: 70%;
+	width: 50%;
 	height: 10%;
-	top: 50%;
-	left: 15%;
+	top: 35%;
+	left: 40%;
 	text-align: center;
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 300%;
+	font-size: 500%;
 	line-height: 55px;
 	color: #FBEED2;
 	margin: 0;
@@ -65,13 +80,13 @@ html,body {
 	position: absolute;
 	width: 70%;
 	height: 10%;
-	left: 15%;
-	top: 60%;
+	left: 30%;
+	top: 47%;
 	text-align: center;
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 250%;
+	font-size: 400%;
 	line-height: 42px;
 	letter-spacing: -0.02em;
 	color: #FBEED2;
@@ -79,55 +94,55 @@ html,body {
 }
 
 .button1 {
-/* button */
+	/* button */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15.7193px 23.5789px;
-gap: 7.86px;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 1% 1%;
+	gap: 1%;
 
-position: absolute;
-width: 140px;
-height: 28px;
-left: 45%;
-top: 75%;
+	position: absolute;
+	width: 12%;
+	height: 5%;
+	left: 59%;
+	top: 60%;
 
-/* /Status Color / Warning */
-background: #FFC107;
-border-radius: 5.89474px;
+	/* /Status Color / Warning */
+	background: #FFC107;
+	border-radius: 5.89474px;
 
-font-family: 'Jockey One';
+	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16.5px;
+	font-size: 160%;
 	line-height: 23px;
 	color: black;
 
 }
 
 .button2 {
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15.7193px 23.5789px;
-gap: 7.86px;
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15.7193px 23.5789px;
+	gap: 7.86px;
 
-position: absolute;
-width: 140px;
-height: 28px;
-left: 45%;
-top: 85%;
+	position: absolute;
+	width: 140px;
+	height: 28px;
+	left: 45%;
+	top: 85%;
 
-/* /Status Color / Warning */
-background: #FFC107;
-border-radius: 5.89474px;
+	/* /Status Color / Warning */
+	background: #FFC107;
+	border-radius: 5.89474px;
 
-font-family: 'Jockey One';
+	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16.5px;
@@ -142,13 +157,13 @@ font-family: 'Jockey One';
 	width: 40%;
 	height: 27.5px;
 	left: 30%;
-	top: 148px;
+	top: 25%;
 
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	font-size: 200%;
+	font-size: 300%;
 	line-height: 23px;
 	color: #FBEED2;
 
@@ -157,22 +172,23 @@ font-family: 'Jockey One';
 .dropdownContainer {
 	box-sizing: border-box;
 
-/* Auto layout */
+	/* Auto layout */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 0;
 
 	position: absolute;
-	width: 30%;
-	height: 30%;;
-	left: 35%;
-	top: 240px;
+	width: 20%;
+	height: 22%;
 
-background: #FBEED2;
-/* Stroke/Input */
-border: 0.844221px solid #CED4DA;
-border-radius: 6.75377px;
+	left: 40%;
+	top: 40%;
+
+	background: #FBEED2;
+	/* Stroke/Input */
+	border: 0.844221px solid #CED4DA;
+	border-radius: 6.75377px;
 
 }
 
@@ -180,20 +196,20 @@ border-radius: 6.75377px;
 	display: row;
 	position: absolute;
 	list-style-type: none;
-	color:#54595E;
+	color: #54595E;
 	font-family: 'Inter';
 	font-size: 100%;
 	width: 30%;
 	height: 30%;
 	text-align: left;
-	top: 32%;
-	left: 28%;
+	top: 41%;
+	left: 32%;
 	line-height: 220%;
 	padding-left: 10%;
 }
 
 .optioncolor {
-	color: #959da5; 
+	color: #959da5;
 	font-size: 10px;
 }
 
@@ -201,19 +217,18 @@ border-radius: 6.75377px;
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	left:0;
+	left: 0;
 	top: 5%;
 	letter-spacing: 0.5px;
 
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 300%;
+	font-size: 400%;
 	text-align: center;
-	color:#FBEED2;
+	color: #FBEED2;
 
 	margin-bottom: 20px;
-	
 }
 
 .compo-title {
@@ -238,7 +253,7 @@ border-radius: 6.75377px;
 	position: absolute;
 	width: 1%;
 	height: 1.5%;
-	left: 40%;
+	left: 38%;
 	top: 14%;
 }
 
@@ -251,7 +266,7 @@ border-radius: 6.75377px;
 }
 
 .notilogo3 {
-	position:absolute;
+	position: absolute;
 	width: 1.5%;
 	height: 2%;
 	left: 32%;
@@ -260,15 +275,15 @@ border-radius: 6.75377px;
 
 .adjust-notification1 {
 	position: absolute;
-	width: 98%;
+	width: 16%;
 	height: 10%;
-	left: 0;
-	top: 12.5%;
+	left: 39%;
+	top: 12.8%;
 
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 70%;
+	font-size: 100%;
 	text-align: center;
 	line-height: 12px;
 
@@ -293,75 +308,91 @@ border-radius: 6.75377px;
 
 .combination {
 	position: relative;
-	color: #fff; 
+	color: #fff;
 	font-family: 'Inter';
-	padding: 30px; /* Space inside the card */
-	padding-top:1px;
+	padding: 30px;
+	/* Space inside the card */
+	padding-top: 1px;
 	padding-bottom: 10px;
-	width: 40%; /* Width of the card */
+	width: 100%;
+	/* Width of the card */
 	height: 25%;
 	max-width: 250px;
-	display: flex; /* Use flexbox for layout */
-	align-items: center; /* Align items vertically */
+	display: flex;
+	/* Use flexbox for layout */
+	align-items: center;
+	/* Align items vertically */
 	gap: 5px;
 	top: 90px;
 }
 
 .prodimg {
 	display: grid;
-	width: 30%;
-	height: 50%;
+	width: 40%;
+	height: 60%;
 }
 
 .product-info {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 	font-size: 10px;
 	color: #6C767F;
 
 }
 
 .product-title {
-	margin-bottom:-7px;
+	margin-bottom: -7px;
 	font-size: 15px;
-	color:#FBEED2;
+	color: #FBEED2;
+}
+
+.component {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 120%;
 }
 
 .product-prize {
-	margin-top: -10px;
+	margin-top: -7%;
+	font-size: 100%;
 }
 
 .specific {
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	left: 63%;
+	left: 65%;
 	top: 37%;
 
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 200%;
+	font-size: 250%;
 	line-height: 34px;
 
 	color: #FBEED2;
 }
 
-.goforit {	
+.goforit {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: 8px 12px;
-	gap: 8px;
+	padding: 1% 1%;
 
 	position: absolute;
 	width: 7%;
 	height: 4%;
-	left: 69%;
+	left: 70.5%;
 	top: 50%;
 
-/* /Status Color / Warning */
+	/* /Status Color / Warning */
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100%;
 	background: #FFC107;
 	border-radius: 6px;
 
@@ -374,12 +405,13 @@ border-radius: 6.75377px;
 	right: 18%;
 	bottom: 4%;
 }
+
 .previewIntro {
 	position: absolute;
-	width: 15%;
+	width: 10%;
 	height: 5%;
-	right: 1%;
-	bottom: 5%;
+	right: 7%;
+	bottom: 4%;
 	margin: 0;
 
 	font-family: 'Inter';
@@ -390,24 +422,21 @@ border-radius: 6.75377px;
 
 	color: #FBEED2;
 }
-.previewIntro a, .previewIntro a:visited, .previewIntro a:hover, .previewIntro a:active {
-	color: #FBEED2; /* 设置链接颜色为白色 */
-  }
-  
 
-.wallet{
+.wallet {
 	position: absolute;
 	width: 3%;
 	height: 5%;
 	left: 40%;
 	bottom: 3%;
 }
+
 .totalamount {
 	position: absolute;
 	width: 20%;
 	height: 5%;
 	left: 45%;
-	bottom: 3%;
+	bottom: 2%;
 	margin: 0;
 
 	font-family: 'Jockey One';
@@ -448,21 +477,21 @@ border-radius: 6.75377px;
 }
 
 .listicon {
-		background-image: url('src/images/bookmark-star.png');
-		background-repeat: no-repeat;
-		background-position: 0 0; 
-		padding-left: 0px;
-		line-height: 40px; 
-		margin-bottom: 0px;
-		color: white;
-		font-size: 16px; 
+	background-image: url('src/images/bookmark-star.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 0px;
+	line-height: 40px;
+	margin-bottom: 0px;
+	color: white;
+	font-size: 16px;
 }
 
 .preview-title {
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	left:15%;
+	left: 15%;
 	top: 5%;
 	letter-spacing: 0.5px;
 
@@ -471,7 +500,7 @@ border-radius: 6.75377px;
 	font-weight: 400;
 	font-size: 300%;
 	text-align: center;
-	color:#FBEED2;
+	color: #FBEED2;
 
 	margin-bottom: 20px;
 
