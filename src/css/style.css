@@ -4,6 +4,7 @@ body {
 	background-color: black;
 	margin: 0;
 }
+@media screen and (width >=1280px) {
 
 a {
 	color: inherit;
@@ -33,10 +34,10 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	position: absolute;
-	width: 80%;
+	width: 100%;
 	height: 60%;
 	top: 25%;
-	left: 15%;
+	left: 10%;
 	margin-bottom: 10%;
 }
 
@@ -137,8 +138,8 @@ a {
 .restart {
 	align-items: center;
 	position: absolute;
-	width: 10%;
-	height: 5%;
+	width: 200px;
+	height: 60px;
 	left: 43%;
 	top: 65%;
 
@@ -156,16 +157,16 @@ a {
 /*question page*/
 .question {
 	position: absolute;
-	width: 40%;
+	width: 60%;
 	height: 27.5px;
-	left: 30%;
+	left: 23%;
 	top: 25%;
 
 	font-family: 'Jockey One';
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	font-size: 300%;
+	font-size: 400%;
 	line-height: 23px;
 	color: #FBEED2;
 
@@ -182,6 +183,7 @@ a {
 
 	position: absolute;
 	width: 20%;
+	min-height: 250px;
 	height: 22%;
 
 	left: 40%;
@@ -202,6 +204,7 @@ a {
 	font-family: 'Inter';
 	font-size: 100%;
 	width: 30%;
+	min-height: 1000px;
 	height: 30%;
 	text-align: left;
 	top: 41%;
@@ -274,16 +277,16 @@ a {
 	position: absolute;
 	width: 1%;
 	height: 1.5%;
-	left: 38%;
-	top: 14%;
+	left: 620px;
+	top: 140px;
 }
 
 .notilogo2 {
 	position: absolute;
 	width: 1%;
 	height: 1.5%;
-	left: 31%;
-	top: 14%;
+	left: 520px;
+	top: 140px;
 }
 
 .notilogo3 {
@@ -296,10 +299,10 @@ a {
 
 .adjust-notification1 {
 	position: absolute;
-	width: 16%;
+	width: 350px;
 	height: 10%;
-	left: 39%;
-	top: 12.8%;
+	left: 620px;
+	top: 125px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -313,10 +316,10 @@ a {
 
 .adjust-notification2 {
 	position: absolute;
-	width: 20%;
+	width: 400px;
 	height: 5%;
-	left: 32.5%;
-	top: 13%;
+	left: 540px;
+	top: 125px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -420,9 +423,9 @@ a {
 /*specific page*/
 .specific {
 	position: absolute;
-	width: 20%;
+	width: 400px;
 	height: 10%;
-	left: 65%;
+	left: 950px;
 	top: 40%;
 
 	font-family: 'Jockey One';
@@ -442,7 +445,7 @@ a {
 	padding: 1% 1%;
 
 	position: absolute;
-	width: 7%;
+	width: 150px;
 	height: 4%;
 	left: 70.5%;
 	top: 55%;
@@ -464,7 +467,7 @@ a {
 	padding: 1% 1%;
 
 	position: absolute;
-	width: 7%;
+	width: 150px;
 	height: 4%;
 	right: 10%;
 	top: 5%;
@@ -493,9 +496,9 @@ a {
 
 .previewIntro {
 	position: absolute;
-	width: 10%;
+	width: 15%;
 	height: 5%;
-	right: 7%;
+	right: 3%;
 	bottom: 4%;
 	margin: 0;
 
@@ -659,7 +662,7 @@ a {
 
 .goforitQ {
 	position: absolute;
-	width: 40%;
+	width: 800px;
 	height: 4%;
 	left: 32%;
 	top: 20%;
@@ -670,15 +673,736 @@ a {
 	color: #FBEED2;
 }
 
-.Congrat {
-	position: absolute;
-	width: 50%;
-	height: 10%;
-	left: 26%;
-	top: 30%;
-	font-family: 'Jockey One';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 400%;
-	color: #FBEED2;
+	.Congrat {
+		/* position: absolute; */
+		width: 1000px;
+		height: 10%;
+		/* left: 26%;
+		top: 30%; */
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 300%;
+		color: #FBEED2;
+	}
+	.mid {
+		position:relative;
+			width: 100vw;
+			height: 100vh;
+	}
+
+	.in {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 50vw;
+		height: 50vh;
+		margin: auto;
+	}
 }
+
+
+@media screen and (min-width: 834px) and (max-width: 1279px) {
+	.specific {
+		 left: 40%;
+	}
+}
+
+@media screen and (320px <=width <834px) {
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	/*homepage*/
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 50%;
+
+	}
+
+	.list {
+		display: flex;
+		flex-wrap: wrap;
+		position: absolute;
+		width: 50%;
+		height: 65%;
+		top: 20%;
+		left: 8%;
+	}
+
+	.list-d {
+		display: flex;
+		flex-wrap: wrap;
+		position: absolute;
+		width: 55%;
+		height: 50%;
+		top: 25%;
+		left: 10%;
+		margin-bottom: 10%;
+	}
+
+	.back {
+		position: fixed;
+		background-repeat: no-repeat;
+		width: 40.17px;
+		height: 33px;
+		left: 15px;
+		bottom: 20px;
+	}
+
+	.home {
+		position: fixed;
+		background-repeat: no-repeat;
+		width: 8%;
+		height: 4%;
+		right: 3%;
+		top: 20px;
+	}
+
+	.cover-img {
+		position: absolute;
+		width: 45%;
+		height: 40%;
+		top: 210px;
+		left: 5px;
+	}
+
+	.title {
+		position: absolute;
+		min-width: 50%;
+		width: 50%;
+		height: 10%;
+		top: 40%;
+		left: 40%;
+		text-align: center;
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 200%;
+		line-height: 55px;
+		color: #FBEED2;
+		margin: 0;
+	}
+
+	.subtitle {
+		position: absolute;
+		width: 70%;
+		height: 10%;
+		left: 30%;
+		top: 47%;
+		text-align: center;
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 150%;
+		line-height: 42px;
+		letter-spacing: -0.02em;
+		color: #FBEED2;
+		margin: 0;
+	}
+
+	.button1 {
+		/* button */
+
+		/* Auto layout */
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 1% 1%;
+		gap: 1%;
+
+		position: absolute;
+		width: 20%;
+		height: 5%;
+		left: 55%;
+		top: 58%;
+
+		/* /Status Color / Warning */
+		background: #FFC107;
+		border-radius: 5.89474px;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 160%;
+		line-height: 23px;
+		color: black;
+	}
+
+	.restart:hover,
+	.button1:hover {
+		color: white;
+	}
+
+	.restart {
+		align-items: center;
+		position: absolute;
+		width: 170px;
+		height: 50px;
+		left: 20px;
+		top: 50%;
+
+		/* /Status Color / Warning */
+		background: #FFC107;
+		border-radius: 5.89474px;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 100%;
+		color: black;
+	}
+
+	/*question page*/
+	.question {
+		position: absolute;
+		width: 100%;
+		height: 27.5px;
+		left: 0%;
+		top: 25%;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		text-align: center;
+		font-size: 180%;
+		line-height: 23px;
+		color: #FBEED2;
+
+	}
+
+	.dropdownContainer {
+		box-sizing: border-box;
+
+		/* Auto layout */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+
+		position: absolute;
+		width: 70%;
+		min-height: 250px;
+		height: 26%;
+
+		left: 18%;
+		top: 40%;
+
+		background: #FBEED2;
+		/* Stroke/Input */
+		border: 0.844221px solid #CED4DA;
+		border-radius: 6.75377px;
+
+	}
+
+	.options {
+		display: row;
+		position: absolute;
+		list-style-type: none;
+		color: #54595E;
+		font-family: 'Inter';
+		font-size: 100%;
+		width: 70%;
+		min-height: 1000px;
+		height: 30%;
+		text-align: left;
+		top: 41%;
+		left: 13%;
+		line-height: 220%;
+		padding-left: 10%;
+	}
+
+	.home:hover,
+	.back:hover,
+	.hoveryellow:hover {
+		color: #FFC107;
+	}
+
+	.optioncolor {
+		color: #959da5;
+		font-size: 10px;
+	}
+
+	/*result page*/
+	.result-title {
+		position: absolute;
+		height: 10%;
+		left: 10%;
+		top: 10%;
+		letter-spacing: 0.5px;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 250%;
+		text-align: center;
+		color: #FBEED2;
+
+		margin-bottom: 20px;
+	}
+
+	.compo-title {
+		position: relative;
+		width: 30%;
+		height: 20%;
+		left: 20%;
+		top: 5%;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 400%;
+		color: #FBEED2;
+	}
+
+	.compo-title-d {
+		position: relative;
+		width: 144px;
+		height: 45px;
+		left: 25px;
+		top: 25px;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 31.6432px;
+		line-height: 38px;
+
+		color: #FBEED2;
+	}
+
+	.notilogo1 {
+		position: absolute;
+		width: 3%;
+		height: 2%;
+		left: 60px;
+		top: 177px;
+	}
+
+	.notilogo2 {
+		position: absolute;
+		width: 3%;
+		height: 2%;
+		left: 75px;
+		top: 230px;
+	}
+
+	.notilogo3 {
+		position: absolute;
+		width: 4%;
+		height: 2.5%;
+		left: 25%;
+		bottom: 11%;
+	}
+
+	.adjust-notification1 {
+		position: absolute;
+		width: 250px;
+		height: 10%;
+		left: 80px;
+		top: 165px;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 80%;
+		line-height: 12px;
+
+		color: #FBEED2;
+	}
+
+	.adjust-notification2 {
+		position: absolute;
+		width: 250px;
+		height: 5%;
+		left: 90px;
+		top: 218px;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 80%;
+		line-height: 12px;
+
+		color: #FBEED2;
+	}
+
+	.combination {
+		position: relative;
+		color: #fff;
+		font-family: 'Barlow Condensed';
+		padding: 30px;
+		/* Space inside the card */
+		padding-top: 1px;
+		padding-bottom: 10px;
+		width: 100%;
+		/* Width of the card */
+		height: 25%;
+		max-width: 250px;
+		display: flex;
+		/* Use flexbox for layout */
+		align-items: center;
+		/* Align items vertically */
+		gap: 5px;
+		top: 90px;
+	}
+
+	.combination-d {
+		position: relative;
+		color: #fff;
+		margin-left: 15%;
+		margin-right: 15%;
+		/* Space inside the card */
+		padding-top: 1%;
+		padding-bottom: 10px;
+		width: 50%;
+		/* Width of the card */
+		height: 25%;
+		max-width: 250px;
+		display: flex;
+		/* Use flexbox for layout */
+		align-items: center;
+		/* Align items vertically */
+		top: 90px;
+	}
+
+	.prodimg {
+		display: grid;
+		width: 50%;
+		height: 60%;
+	}
+
+	.product-info {
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+		font-family: 'Barlow Condensed';
+		font-size: 50%;
+		color: #6C767F;
+
+	}
+
+	.product-title {
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		margin-bottom: -1%;
+		font-size: 200%;
+		color: #FBEED2;
+	}
+
+	.product-title-d {
+		width: 50%;
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 80%;
+		color: #FBEED2;
+		margin-top: 0;
+		margin-bottom: 30px;
+		margin-left: 5%;
+	}
+
+	.component {
+		font-family: 'Inter';
+		font-style: normal;
+		width: 200%;
+		font-weight: 400;
+		font-size: 120%;
+		margin-top: 0;
+	}
+
+	.product-prize {
+		margin-top: -7%;
+		font-size: 150%;
+	}
+
+	/*specific page*/
+	.specific {
+		position: absolute;
+		width: 300px;
+		height: 10%;
+		left: 50px;
+		top: 1200px;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 200%;
+		line-height: 34px;
+
+		color: #FBEED2;
+	}
+
+	.goforit {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 1% 1%;
+
+		position: absolute;
+		width: 120px;
+		height: 4%;
+		left: 130px;
+		top: 1300px;
+
+		/* /Status Color / Warning */
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100%;
+		background: #FFC107;
+		border-radius: 6px;
+	}
+
+	.Done {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 1% 1%;
+
+		position: absolute;
+		width: 120px;
+		height: 4%;
+		right: 35%;
+		top: 4%;
+
+		/* /Status Color / Warning */
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100%;
+		background: #FFC107;
+		border-radius: 6px;
+	}
+
+	.Done:hover,
+	.goforit:hover {
+		color: white;
+	}
+
+	.arrow-right {
+		position: absolute;
+		width: 15%;
+		height: 6%;
+		right: 250px;
+		top: 1350px;
+	}
+
+	.previewIntro {
+		position: absolute;
+		width: 200px;
+		height: 5%;
+		right: 30px;
+		top: 1350px;
+		margin: 0;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 100%;
+		line-height: 19px;
+
+		color: #FBEED2;
+	}
+
+	.previewIntro:hover {
+		color: #FFC107;
+	}
+
+	.wallet {
+		position: absolute;
+		width: 8%;
+		height: 5%;
+		left: 90px;
+		top: 1450px;
+	}
+
+	.totalamount {
+		position: absolute;
+		width: 50%;
+		height: 5%;
+		left: 40%;
+		top: 1450px;
+		margin: 0;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 150%;
+		line-height: 34px;
+
+		color: #FBEED2;
+	}
+
+
+	.detailed-title {
+		position: absolute;
+		font-family: 'Barlow Condensed';
+		font-size: 200%;
+		left: 32%;
+		top: 22%;
+		color: #FBEED2;
+	}
+
+
+	.detailed-img {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 20%;
+		top: 25%;
+	}
+
+	.detailed-list-left {
+		list-style-type: none;
+		position: absolute;
+		width: 30%;
+		height: 50%;
+		top: 40%;
+		left: 20%;
+		font-family: 'Barlow Condensed';
+	}
+
+	.detailed-list-right {
+		position: absolute;
+		list-style-type: none;
+		font-family: 'Barlow Condensed';
+		width: 36%;
+		left: 50%;
+		top: 40%;
+		padding-left: 5%;
+	}
+
+	.listicon {
+		width: 45%;
+		line-height: 250%;
+		color: white;
+		font-size: 150%;
+		left: 5%;
+		top: -5%;
+	}
+
+	.listicon:hover {
+		color: #FFC107;
+	}
+
+	.bmicon {
+		width: 4%;
+		height: 4%;
+		vertical-align: center;
+	}
+
+	.preview-title {
+		position: absolute;
+		width: 50%;
+		height: 10%;
+		left: 25%;
+		top: 5%;
+		letter-spacing: 0.5px;
+
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 300%;
+		text-align: center;
+		color: #FBEED2;
+
+		margin-bottom: 20px;
+
+	}
+
+	.preview-500 {
+		width: 100%;
+		height: 80%;
+		margin-left: 0;
+		margin-top: 45%;
+	}
+
+	.preview-700 {
+		width: 50%;
+		height: 35%;
+		margin-left: 25%;
+		margin-top: 53%;
+	}
+
+	.preview-900 {
+		width: 80%;
+		margin-left: 15%;
+		margin-top: 60%;
+		rotate: -5deg;
+	}
+
+	.preview-1300 {
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 55%;
+	}
+
+	.preview-noti {
+		position: absolute;
+		width: 50%;
+		height: 10%;
+		left: 32%;
+		bottom: 2%;
+
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 80%;
+		line-height: 20px;
+
+		color: #FBEED2;
+	}
+
+	.goforitQ {
+		position: absolute;
+		width: 250px;
+		height: 4%;
+		left: 20%;
+		top: 20%;
+		font-family: 'Jockey One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 150%;
+		color: #FBEED2;
+	}
+
+		.Congrat {
+			/* position: absolute; */
+			width: 250px;
+			height: 10%;
+			/* left: 26%;
+			top: 30%; */
+			font-family: 'Jockey One';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 200%;
+			color: #FBEED2;
+		}
+		.mid {
+			position:relative;
+				width: 100vw;
+				height: 100vh;
+		}
+
+		.in {
+			position: absolute;
+			top: 0;
+			left: -30px;
+			right: 0;
+			bottom: 0;
+			width: 50vw;
+			height: 50vh;
+			margin: auto;
+		}
+	}
+
